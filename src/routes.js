@@ -9,8 +9,13 @@ const rotaInicial = (req, res) => {
 }
 
 router.get('/', rotaInicial)
-router.post('/usuarios', Usuario.cadastrar)
-router.get('/usuarios', Usuario.listar)
+router.post('/usuarios/:id', Usuario.cadastrar)
+router.get('/usuarios/:id', Usuario.listar)
+router.delete('/usuarios/:id', Usuario.excluir)
+router.put('/usuarios/:id', Usuario.alterar)
 router.get('/eventos', Evento.listar)
+router.post('/eventos', Evento.cadastrar)
+router.delete('/eventos/:id', Evento.excluir)
+router.put('/eventos/:id', Evento.alterar)
 
 module.exports = router
