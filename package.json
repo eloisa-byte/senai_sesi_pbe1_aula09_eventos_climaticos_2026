@@ -1,7 +1,7 @@
 {
   "name": "eventos_climaticos",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# senai_sesi_pbe1_aula09_eventos_climaticos_2026\"",
   "main": "server.js",
   "scripts": {
     "dev": "node --watch server.js",
@@ -13,7 +13,15 @@
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.6",
-    "express": "^5.2.1",
+    "express": "^5.3.0",
     "mysql": "^2.18.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eloisa-byte/senai_sesi_pbe1_aula09_eventos_climaticos_2026.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eloisa-byte/senai_sesi_pbe1_aula09_eventos_climaticos_2026/issues"
+  },
+  "homepage": "https://github.com/eloisa-byte/senai_sesi_pbe1_aula09_eventos_climaticos_2026#readme"
 }
